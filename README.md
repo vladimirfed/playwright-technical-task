@@ -25,7 +25,11 @@ To verify that the registration process displays an error message when a user at
    ```bash
    npm install
 
-3. Start the development server:
+3. Go to the root directory:
+   ```bash
+   cd playwright-technical-task
+
+4. Start the development server:
    ```bash
    npm run test
 
