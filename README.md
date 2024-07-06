@@ -1,5 +1,3 @@
-# Test Plan: Check Registration Error when Public Email is used
-
 ## Test Information
 - **Test Name:** Should show the error when public email in registration is used
 - **Test Type:** UI End-to-End Test
