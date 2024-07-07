@@ -12,7 +12,7 @@
 To verify that the registration process displays an error message when a user attempts to register with a public email address.
 
 ## Prerequisites
-1. Ensure you have the following installed: Node and npm, Playwright and TypeScript.
+1. Ensure you have the following installed: Node and npm.
 
 ## Installation and Running the test
 1. Clone the repository.

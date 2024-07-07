@@ -16,13 +16,15 @@ test('should show the error when public email in registration is used', async ({
   
   await expect(page).toHaveURL(/forums\.veeam\.com.*/);
   await page.click('text=Register');
-  setTimeout(async () => await page.click('text=I AGREE TO THESE TERMS'), 1000);
+  await page.waitForTimeout(1000);
+  await page.click('text=I AGREE TO THESE TERMS');
 
   await page.fill('input[name="username"]', CREDENTIALS.name);
   await page.fill('input[name="new_password"]', CREDENTIALS.password);
   await page.fill('input[name="password_confirm"]', CREDENTIALS.password);
   await page.fill('input[name="email"]', CREDENTIALS.email);
-  setTimeout(async () => await page.click('#submit'), 1000); 
+  await page.waitForTimeout(1000);
+  await page.click('#submit'); 
 
   const errorMessage = await page.textContent('.error');
   expect(errorMessage).toContain("Public email are not allowed.");
