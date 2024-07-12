@@ -5,7 +5,6 @@
 - **Language:** TypeScript
 
 ## Test Environment
-- **URL:** https://www.veeam.com/
 - **Browser:** Any browser supported by Playwright (Chrome, Firefox, WebKit)
 
 ## Objective
