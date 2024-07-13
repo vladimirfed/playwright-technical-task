@@ -32,7 +32,7 @@ To verify that the registration process displays an error message when a user at
 
 # Test Steps
 
-1. Navigate to Home Page [https://www.veeam.com/](https://www.veeam.com/).
+1. Navigate to Site Home Page
 2. Click on the "Support" menu item.
 3. Click on "R&D Forums".
 4. Verify that the URL matches the expected pattern for the forums page.
